@@ -1,0 +1,29 @@
+body{margin:0;background:#f3f4f6;font-family:Arial,sans-serif}
+header{background:white;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+h1{margin:0;font-size:24px}
+.login-box{display:flex;flex-direction:column;align-items:center;text-align:center}
+.login-box input{width:600px;max-width:90%}
+.login-box button{margin-top:10px}
+.right{display:flex;gap:12px;align-items:center}
+.account{font-size:13px;color:#555;text-align:right;max-width:420px;word-break:break-all}
+.menu{display:none;position:relative}
+.menu-box{display:none;position:absolute;right:0;top:42px;width:330px;background:white;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.18);padding:18px;z-index:20}
+.menu-box.show{display:block}
+.wrap{max-width:900px;margin:35px auto}
+.stage-title{text-align:center;background:#2563eb;color:white;padding:14px;border-radius:16px;margin-bottom:20px;font-size:20px;font-weight:bold}
+.screen{display:none;background:white;padding:30px;border-radius:18px;box-shadow:0 3px 12px rgba(0,0,0,.1)}
+.screen.active{display:block}
+input{width:96%;padding:13px;margin:8px 0;border-radius:10px;border:1px solid #ccc}
+button{padding:12px 18px;margin:8px 5px 8px 0;border:0;border-radius:10px;background:#2f80ed;color:white;font-weight:bold;cursor:pointer}
+button.gray{background:#666}
+button.green{background:#16a34a}
+button.red{background:#dc2626}
+.product-card{display:flex;gap:20px;border:1px solid #ddd;border-radius:16px;background:#fafafa;padding:22px;margin:15px 0;align-items:center}
+.product-img{width:150px;height:150px;border-radius:16px;background:linear-gradient(135deg,#dbeafe,#bfdbfe);display:flex;align-items:center;justify-content:center;font-size:58px}
+.badge{display:inline-block;padding:6px 12px;border-radius:20px;background:#e5e7eb;font-size:13px;font-weight:bold}
+.done{background:#dcfce7;color:#15803d}
+.wait{background:#fef3c7;color:#92400e}
+.sold{background:#fee2e2;color:#b91c1c}
+.status{background:#f1f5f9;padding:18px;border-radius:14px;margin-top:15px;line-height:1.8}
+.msg{color:#2563eb;font-weight:bold;margin-top:12px}
+.small{font-size:13px;color:#555;word-break:break-all}
